@@ -86,7 +86,9 @@ nav{
 
 .welcome-script p{
     color: gray; 
-    font-size: 14px; 
+    font-size: 16px; 
+    margin-bottom: 20px;
+    line-height: 24px;
 }
 
 .welcome-script div{
@@ -101,12 +103,12 @@ nav{
 
 .welcome-script button{
     background-color: #fdc800 ;
-    font-weight: 900; 
+    font-weight: 600; 
     margin-top: 10px; 
     border-radius: 4px;
-    padding: 10px 20px; 
+    padding: 10px 30px; 
     border: none; 
-    font-size: 12px; 
+    font-size: 16px; 
 }
 
 .stat{
@@ -166,6 +168,7 @@ nav{
     padding-left: 150px; 
     background-color: #f6f6f6; 
     padding-top: 100px; 
+    padding-bottom: 100px;
 
 }
 
@@ -205,14 +208,20 @@ flex-direction: column;
 
 }
 
-/* .news .lastest-post .lastest-post-item{
-    display: flex; 
-    max-height: 200px; 
-    align-items: center;
-    padding: 15px 0px;
-    background-color: white;
+.news .lastest-post .lastest-post-item h5{
+    margin: 6px 0px 12px; 
+    color: #939393; 
+    font-weight: 400; 
+    font-size: 16px;
+   
 
 }
+
+.news .lastest-post .lastest-post-item p{
+    margin: 10px 0px;
+    color: #585858; 
+}
+/* 
 
 .news .lastest-post .lastest-post-item .lastest-post-img{
     width: 40%; 
