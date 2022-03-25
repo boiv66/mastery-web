@@ -369,3 +369,115 @@ footer .footer-container .contact-us{
     font-weight: 16px;
 
 }
+
+@media (max-width: 415px){
+    .logo{
+        margin: 0px;
+        padding-bottom: 15px; 
+    }
+    nav{
+        display: none; 
+    }
+
+    .carousel{
+        height: 414px; 
+    }
+
+    .welcome{
+        padding: 30px 0px; 
+        flex-direction: column;
+    }
+
+    .welcome .welcome-script{
+        width: 100%; 
+        padding: 30px;
+    }
+
+    .welcome .welcome-img{
+        align-self: center;
+        width: auto;
+        height: 100%; 
+        padding-left: 20px;
+       
+    }
+
+    .welcome .welcome-img img{
+        border-radius: 0px;
+    }
+    .stat{
+        padding: 30px 0; 
+    }
+    .stat .stat-items{
+        flex-direction: column;
+        /* align-items: center;  */
+        padding-left: 30px; 
+    }
+
+    .category{
+        text-align: center; 
+        padding: 30px 15px;
+    }
+    .category .category-item{
+        max-width:144px; 
+        margin: 15px;
+    }
+    .category .upper-category, .category .lower-category{
+        flex-wrap: wrap;
+    }
+    
+    
+    .news{
+        padding: 0px; 
+
+    }
+
+    .news {
+       /* display: block;  */
+        flex-direction: column;
+    }
+
+    .news .lastest-post, .news .upcoming-event{
+        max-width: 100%;
+    }
+
+    .news .upcoming-event{
+        padding: 15px; 
+    }
+
+    .lastest-post{
+        margin-right: 0px; 
+        
+    }
+    .lastest-post .lastest-post-container {
+        /* display: block; */
+        align-self: center;
+    }
+
+    footer{
+        padding: 0px 0px 30px;
+    }
+
+
+    footer  .footer-container {
+        /* flex-direction: column;  */
+        flex-wrap: wrap;
+        
+    }
+
+    .footer-container .contact-us{
+        min-width: 370px;
+        /* display: block;  */
+        padding-left: 40px;
+        margin-bottom: 30px; 
+    }
+
+    footer .footer-container .featured-link, footer .footer-container .quick-link{
+        display: inline-block; 
+    }
+
+    .right-reserved{
+        padding-left: 45px; 
+    }
+
+
+}
